@@ -1,5 +1,5 @@
 # springIS601projects
-## Burger Machine
+## Burger Machine - Web Development
 This project implements an advanced burger ordering system using Python and Flask. The system features dynamic menu generation, real-time cost calculation mechanisms, and robust exception handling to ensure a seamless user experience.
 
 ### Features
@@ -17,9 +17,8 @@ This project implements an advanced burger ordering system using Python and Flas
       - git clone https://github.com/Anu0408/BurgerMachine.git
       - cd BurgerMachine
 2. Create a virtual environment and activate it:
-
-      python -m venv venv
-      source venv\Scripts\activate
+      - python -m venv venv
+      - source venv\Scripts\activate
 3. Install the dependencies:
       pip install -r requirements.txt
 ### Usage
@@ -27,51 +26,28 @@ This project implements an advanced burger ordering system using Python and Flas
       python run.py
       Access the application at http://localhost:5000.
 
-Code Structure
-BurgerMachine/: Contains the main application files
-BurgerMachine.py: Core functionalities of the burger machine
-BurgerMachineExceptions.py: Custom exceptions for the application
-BurgerMachine!sample.py: Sample implementation and usage
-test1_sample.py, test_burger_machine.py: Test cases for the application
-README.md: Project documentation
-requirements.txt: Python dependencies
-Testing
-Run the test cases using pytest:
-      pytest
-Exception Handling
-OutOfStockException
-Raised when an item is out of stock. Ensures that the user is informed about the unavailability of the selected item.
+### Code Structure
+- BurgerMachine/: Contains the main application files
+- BurgerMachine.py: Core functionalities of the burger machine
+- BurgerMachineExceptions.py: Custom exceptions for the application
+- BurgerMachine!sample.py: Sample implementation and usage
+- test1_sample.py, test_burger_machine.py: Test cases for the application
+- README.md: Project documentation
+- requirements.txt: Python dependencies
 
-NeedsCleaningException
-Raised when the machine needs cleaning. The user is prompted to clean the machine before proceeding.
+### Testing
+Run the test cases using pytest: pytest
 
-InvalidChoiceException
-Raised when an invalid choice is made by the user. Informs the user about the invalid selection.
+### To create a new branch, make changes, commit, and open a pull request
+- git checkout -b feature-name
 
-ExceededRemainingChoicesException
-Raised when the user tries to select more items than available. Guides the user to select valid options.
+##### Add  changes and commit:
+- git add .
+- git commit -m "Add new feature"
 
-InvalidPaymentException
-Raised when an invalid payment is made. Ensures that the user provides the correct payment amount.
+##### Push to the branch:
+- git push origin feature-name
+- Open a pull request.
 
-Contribution
-Create a new branch for your feature:
-
-bash
-Copy code
-git checkout -b feature-name
-Add your changes and commit:
-
-bash
-Copy code
-git add .
-git commit -m "Add new feature"
-Push to the branch:
-
-bash
-Copy code
-git push origin feature-name
-Open a pull request on GitHub.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### License
+This project is licensed under the MIT License.
