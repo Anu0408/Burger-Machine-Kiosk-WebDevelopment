@@ -1,5 +1,4 @@
-# springIS601projects
-## Burger Machine - Web Development
+# Burger Machine - Web Development Project #1
 This project implements an advanced burger ordering system using Python and Flask. The system features dynamic menu generation, real-time cost calculation mechanisms, and robust exception handling to ensure a seamless user experience.
 
 ### Features
